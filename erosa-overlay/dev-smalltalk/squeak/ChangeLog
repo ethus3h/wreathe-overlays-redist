@@ -1,0 +1,29 @@
+# ChangeLog for dev-smalltalk/squeak
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*squeak-4.3-r3 (07 Mar 2013)
+
+  07 Mar 2013; <emmanuel@gentoo.org> +squeak-4.3-r3.ebuild:
+  Added dependency to squeak-sources
+
+*squeak-4.3-r2 (06 Mar 2013)
+
+  06 Mar 2013; <emmanuel@gentoo.org> +squeak-4.3-r2.ebuild:
+  Version bump
+
+*squeak-4.3-r1 (29 Jan 2012)
+
+  29 Jan 2012; <emmanuel@gentoo.org> +squeak-4.3-r1.ebuild:
+  Install sources file as a symbolic link.
+
+*squeak-4.3 (29 Jan 2012)
+
+  29 Jan 2012; <emmanuel@gentoo.org> +squeak-4.3.ebuild:
+  Version bump and changed install location to /usr/share/squeak.
+
+*squeak-4.2 (29 Oct 2011)
+
+  29 Oct 2011; <emmanuel@gentoo.org> +squeak-4.2.ebuild:
+  Initial ebuild.
+

@@ -1,0 +1,9 @@
+# ChangeLog for net-misc/clamz
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*clamz-0.5 (08 Dec 2011)
+
+  08 Dec 2011; <emmanuel@gentoo.org> +clamz-0.5.ebuild:
+  Version bump to support Amazon Cloud Player
+
