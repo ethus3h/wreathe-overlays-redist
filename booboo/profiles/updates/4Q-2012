@@ -1,2 +1,0 @@
-move dev-util/phantomjs www-client/phantomjs
-move dev-dotnet/fsharp dev-lang/fsharp

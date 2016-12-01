@@ -1,9 +1,0 @@
---- Makefile	2013-09-01 13:34:22.382151494 +0200
-+++ Makefile.new	2013-09-01 13:35:01.021152375 +0200
-@@ -1,5 +1,5 @@
- GCC=gcc
--CCFLAGS=-Wall -pedantic -std=c99 -D_BSD_SOURCE
-+CCFLAGS=$(CFLAGS) -std=c99 -D_BSD_SOURCE
- LDFLAGS=-lImlib2
- PROG=icat
- MODS=icat.o
