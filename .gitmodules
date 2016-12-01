@@ -1,0 +1,42 @@
+[submodule "jorgicio"]
+	path = jorgicio
+	url = https://github.com/jorgicio/jorgicio-gentoo.git
+[submodule "laurentb"]
+	path = laurentb
+	url = git://github.com/laurentb/gentoo-overlay.git
+[submodule "brother-overlay"]
+	path = brother-overlay
+	url = git://github.com/stefan-langenmaier/brother-overlay.git
+[submodule "stintel"]
+	path = stintel
+	url = https://github.com/stintel/gentoo-overlay.git
+[submodule "sirjaren"]
+	path = sirjaren
+	url = git://github.com/sirjaren/gentoo-overlay.git
+[submodule "mva"]
+	path = mva
+	url = git://github.com/msva/mva-overlay
+[submodule "andy"]
+	path = andy
+	url = git://anongit.gentoo.org/user/andy.git
+[submodule "imaging"]
+	path = imaging
+	url = https://github.com/gerddie/gentoo-imaging.git
+[submodule "booboo"]
+	path = booboo
+	url = https://github.com/l29ah/booboo.git
+[submodule "ulm"]
+	path = ulm
+	url = git://anongit.gentoo.org/repo/dev/ulm.git
+[submodule "elementary"]
+	path = elementary
+	url = git://github.com/pimvullers/elementary.git
+[submodule "sabayon"]
+	path = sabayon
+	url = git://github.com/Sabayon/for-gentoo.git
+[submodule "trinity"]
+	path = trinity
+	url = https://github.com/Fat-Zer/trinity.git
+[submodule "jscinoz"]
+	path = jscinoz
+	url = git://github.com/jscinoz/jscinoz-overlay.git
