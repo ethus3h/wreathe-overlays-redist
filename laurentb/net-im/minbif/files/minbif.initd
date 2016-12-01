@@ -1,0 +1,48 @@
+#!/sbin/openrc-run
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+MINBIF_EXEC="/usr/bin/minbif"
+MINBIF_PID="/run/minbif/minbif.pid"
+
+extra_commands="reload"
+
+depend() {
+	use logger
+}
+
+checkconfig() {
+	if ! [ -f /etc/minbif/minbif.conf ]; then
+		eerror "Configuration file /etc/minbif/minbif.conf does not exist."
+		return 1
+	fi
+
+	return 0
+}
+
+start() {
+	checkconfig || return 1
+	checkpath -d -o minbif:minbif $(dirname ${MINBIF_PID})
+
+	ebegin "Starting minbif"
+	start-stop-daemon --quiet --start \
+		--user minbif --group minbif \
+		--exec ${MINBIF_EXEC} -- \
+			--pidfile ${MINBIF_PID} \
+			/etc/minbif/minbif.conf
+	eend $?
+}
+
+stop() {
+	ebegin "Stopping minbif"
+	start-stop-daemon --quiet --stop \
+        --pidfile ${MINBIF_PID}
+	eend $?
+}
+
+reload() {
+	ebegin "Reloading minbif config"
+	start-stop-daemon --quiet --signal HUP \
+        --pidfile ${MINBIF_PID}
+	eend $?
+}

@@ -1,0 +1,51 @@
+*gdcm-2.6.6 (28 Oct 2016)
+
+  28 Oct 2016;  <gerddie@gentoo.org> +gdcm-2.6.6.ebuild, -gdcm-2.6.1.ebuild,
+  -gdcm-2.6.2.ebuild, -gdcm-2.6.3-r1.ebuild, -gdcm-2.6.5.ebuild, metadata.xml:
+  sci-libs/gdcm:    Add gdcm-2.6.6 ebuild   * remove all older ebuilds    * use
+  local copy of net-libs/socket++ because the standalone version      will be
+  removed from portage
+
+*gdcm-2.6.5 (24 Aug 2016)
+
+  24 Aug 2016;  <gerddie@gentoo.org> +gdcm-2.6.5.ebuild:
+  sci-libs/gdcm:          Add ebuild for new upstream 2.6.5
+
+*gdcm-2.6.3-r1 (17 Apr 2016)
+
+  17 Apr 2016;  <gerddie@gentoo.org> +files/vtk63.patch, +gdcm-2.6.3-r1.ebuild,
+  -gdcm-2.6.3.ebuild, metadata.xml:
+  sci-libs/gdcm:          2.6.3: Add support for vtk use and python bindings
+
+  23 Mar 2016;  <gerddie@gentoo.org> gdcm-2.6.1.ebuild, gdcm-2.6.2.ebuild,
+  gdcm-2.6.3.ebuild:
+  sci-libs/gdcm: Correct formatting
+
+  22 Mar 2016;  <gerddie@gentoo.org> gdcm-2.6.1.ebuild, gdcm-2.6.2.ebuild,
+  gdcm-2.6.3.ebuild:
+  sci-libs/gdcm: Correct openjpeg dependency to use versiojn from slot:0
+
+  22 Mar 2016;  <gerddie@gentoo.org> metadata.xml:
+  sci-libs/gdcm: remove <herd> in manifest as repoman doesn't like it.
+
+  30 Jan 2016;  <gerddie@gentoo.org> gdcm-2.6.3.ebuild:
+  Put stylesheets to build dependencies
+
+  30 Jan 2016;  <gerddie@gentoo.org> gdcm-2.6.3.ebuild:
+  Add stylesheets to dependencies
+
+*gdcm-2.6.3 (30 Jan 2016)
+
+  30 Jan 2016;  <gerddie@gentoo.org>
+  +files/dcm_group2_buggyfiles_fallback.patch, +gdcm-2.6.3.ebuild:
+  Add new upstream with buggy dcm workaround
+
+*gdcm-2.6.2 (29 Jan 2016)
+
+  29 Jan 2016;  <gerddie@gentoo.org> +gdcm-2.6.2.ebuild:
+  sci-libs/gdcm: New upstream 2.6.2
+
+*gdcm-2.6.1 (03 Dec 2015)
+
+  03 Dec 2015;  <gw.fossdev@gmail.com> +gdcm-2.6.1.ebuild, +metadata.xml:
+  sci-libs/gdcm:    Initial upload

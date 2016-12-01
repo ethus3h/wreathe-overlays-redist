@@ -1,0 +1,18 @@
+*ginkgocadx-3.8.2 (13 Apr 2016)
+
+  13 Apr 2016;  <gerddie@gentoo.org> +ginkgocadx-3.8.2.ebuild:
+  sci-visualization/ginkgocadx:         Add ebuild for latest upstream release.
+
+  24 Mar 2016;  <gerddie@gentoo.org> ginkgocadx-3.8.0.ebuild:
+  sci-visualization/ginkgocadx:      * Add blocker for same packaage from media-
+  gfx
+
+  23 Mar 2016;  <gerddie@gentoo.org> ginkgocadx-3.8.0.ebuild:
+  sci-visualization/ginkgocadx: Add missing source URI
+
+*ginkgocadx-3.8.0 (23 Mar 2016)
+
+  23 Mar 2016;  <gw.fossdev@gmail.com> +ginkgocadx-3.8.0.ebuild, +metadata.xml:
+  sci-visualization/ginkgocadx:
+  Thanks to Sergey Alirzaev for providing the -9999 overlay from the booboo
+  overlay that was used as bases for this one.

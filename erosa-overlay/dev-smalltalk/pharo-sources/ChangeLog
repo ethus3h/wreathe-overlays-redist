@@ -1,0 +1,23 @@
+# ChangeLog for dev-smalltalk/pharo-sources
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*pharo-sources-30 (17 Dec 2014)
+
+  17 Dec 2014; <emmanuel@gentoo.org> +pharo-sources-30.ebuild:
+  version bump
+
+  01 Aug 2013; <emmanuel@gentoo.org> pharo-sources-20.ebuild:
+  again, switch to pharovm
+
+  01 Aug 2013; <emmanuel@gentoo.org> pharo-sources-20.ebuild:
+  switched from squeakvm to pharovm-bin
+
+  31 Jul 2013; <emmanuel@gentoo.org> pharo-sources-20.ebuild:
+  Add pharo-source-20
+
+*pharo-sources-10 (07 Mar 2013)
+
+  07 Mar 2013; <emmanuel@gentoo.org> +pharo-sources-10.ebuild:
+  Added pharo-sources package
+

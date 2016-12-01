@@ -1,0 +1,13 @@
+diff --git a/patches/vlc/rsound-plugin.c b/patches/vlc/rsound-plugin.c
+index 7e11a16..f703f1b 100644
+--- a/patches/vlc/rsound-plugin.c
++++ b/patches/vlc/rsound-plugin.c
+@@ -172,7 +172,7 @@ static int Open( vlc_object_t *p_this )
+     rsd_set_param(p_sys->rd, RSD_FORMAT, &format);
+ 
+     p_aout->format.i_format = VLC_CODEC_S16N;
+-    p_aout->i_nb_samples = 1024; // Just pick something relatively small. Anything is fine.
++    /*p_aout->i_nb_samples = 1024; // Just pick something relatively small. Anything is fine.*/
+     p_aout->pf_play = Play;
+ 
+     aout_VolumeSoftInit( p_aout );

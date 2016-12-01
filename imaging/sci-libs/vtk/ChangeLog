@@ -1,0 +1,18 @@
+*vtk-6.3.0-r2 (21 Apr 2016)
+
+  21 Apr 2016;  <gerddie@gentoo.org> +files/20_soversion-sharedlib.patch,
+  +vtk-6.3.0-r2.ebuild:
+  sci-libs/vtk:          Add proper SONAME to the library
+
+*vtk-6.3.0-r1 (23 Mar 2016)
+
+  23 Mar 2016;  <gerddie@gentoo.org> +vtk-6.3.0-r1.ebuild, metadata.xml:
+  sci-libs/vtk: move to qt5 only
+
+  29 Jan 2016;  <gerddie@gentoo.org> vtk-6.3.0.ebuild:
+  sci-libs/vtk:    Update html doc installation
+
+*vtk-6.3.0 (29 Jan 2016)
+
+  29 Jan 2016;  <gerddie@gentoo.org> +vtk-6.3.0.ebuild:
+  sci-libs/vtk:   Add new upstream version 6.3.0

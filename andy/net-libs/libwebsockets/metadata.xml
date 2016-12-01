@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		Libwebsockets is a lightweight pure C library built to use minimal CPU and memory resources, and provide fast throughput in both directions as client or server.
+	</longdescription>
+	<use>
+		<flag name="ssl">Enable SSL support
+			<pkg>dev-libs/openssl</pkg></flag>
+	</use>
+</pkgmetadata>

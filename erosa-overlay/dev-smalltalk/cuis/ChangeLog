@@ -1,0 +1,14 @@
+# ChangeLog for dev-smalltalk/cuis
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*cuis-4.1 (06 Mar 2013)
+
+  06 Mar 2013; <emmanuel@gentoo.org> +cuis-4.1.ebuild:
+  Version bump
+
+*cuis-3.3 (29 Jan 2012)
+
+  29 Jan 2012; <emmanuel@gentoo.org> +cuis-3.3.ebuild:
+  Initial ebuild.
+

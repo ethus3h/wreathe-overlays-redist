@@ -1,0 +1,30 @@
+diff --git src/io_ftdi.c src/io_ftdi.c
+index 782b206..92bca2d 100644
+--- src/io_ftdi.c
++++ src/io_ftdi.c
+@@ -10,8 +10,6 @@
+ #define PORT_TMS            0x08
+ #define IO_OUTPUT (PORT_TCK|PORT_TDI|PORT_TMS)
+ 
+-#define USE_ASYNC
+-
+ #ifndef USE_ASYNC
+ #define FTDI_MAX_WRITESIZE 256
+ #endif
+@@ -77,7 +75,6 @@ int io_scan(const unsigned char *TMS, const unsigned char *TDI, unsigned char *T
+ 	unsigned char buffer[16384];
+ 	int i, res; 
+ #ifndef USE_ASYNC
+-#error no async
+ 	int r, t;
+ #endif
+ 	
+@@ -125,7 +122,7 @@ int io_scan(const unsigned char *TMS, const unsigned char *TDI, unsigned char *T
+ 			if (res < 0)
+ 			{
+ 				fprintf(stderr, "ftdi_read_data %d (%s)\n", res, ftdi_get_error_string(&ftdi));
+-				return -1
++				return -1;
+ 			}
+ 			
+ 			i += res;
