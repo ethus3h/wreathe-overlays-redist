@@ -52,14 +52,16 @@
     </owner>
     <source type="git">https://github.com/stintel/gentoo-overlay.git</source>
   </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>erosa-overlay</name>
-    <description>A personal unofficial Gentoo overlay.</description>
-    <homepage>https://bitbucket.org/erosa/erosa-overlay/wiki/Home</homepage>
+  <repo priority="100" quality="experimental" status="unofficial">
+    <name>wreathe-overlay</name>
+    <description>ebuilds for Wreathe</description>
+    <homepage>https://github.com/ethus3h/wreathe-overlay</homepage>
     <owner>
-      <email>goaway1000@gmail.com</email>
+      <email>info@futuramerlin.com</email>
+      <name>Futuramerlin</name>
     </owner>
-    <source type="mercurial">https://bitbucket.org/erosa/erosa-overlay</source>
+    <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
+    <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>sirjaren</name>
@@ -83,16 +85,14 @@
     <source type="git">git://github.com/msva/mva-overlay</source>
     <feed>https://github.com/msva/mva-overlay/commits/master.atom</feed>
   </repo>
-  <repo priority="100" quality="experimental" status="unofficial">
-    <name>wreathe-overlay</name>
-    <description>ebuilds for Wreathe</description>
-    <homepage>https://github.com/ethus3h/wreathe-overlay</homepage>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>erosa-overlay</name>
+    <description>A personal unofficial Gentoo overlay.</description>
+    <homepage>https://bitbucket.org/erosa/erosa-overlay/wiki/Home</homepage>
     <owner>
-      <email>info@futuramerlin.com</email>
-      <name>Futuramerlin</name>
+      <email>goaway1000@gmail.com</email>
     </owner>
-    <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
-    <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
+    <source type="mercurial">https://bitbucket.org/erosa/erosa-overlay</source>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>andy</name>
@@ -155,6 +155,17 @@
       <email>jscinoz@jscinoz.so</email>
     </owner>
     <source type="git">git://github.com/jscinoz/jscinoz-overlay.git</source>
+  </repo>
+  <repo priority="50" quality="experimental" status="official">
+    <name>dotnet</name>
+    <description>Experimental overlay for .NET packages.</description>
+    <homepage>http://github.com/gentoo/dotnet</homepage>
+    <owner>
+      <email>cynede@gentoo.org</email>
+      <name>Mikhail Pukhlikov</name>
+    </owner>
+    <source type="git">git://anongit.gentoo.org/proj/dotnet.git</source>
+    <feed>https://cgit.gentoo.org/proj/dotnet.git/atom/</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>trinity</name>

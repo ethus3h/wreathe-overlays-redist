@@ -2641,6 +2641,22 @@ FIN
     <source type="git">https://github.com/lacimarsik/lacimarsik-overlay.git</source>
     <feed>https://github.com/lacimarsik/lacimarsik-overlay/commits/master.atom</feed>
   </repo>
+  <repo quality="experimental" status="unofficial">
+    <name>lanodanOverlay</name>
+    <description lang="en">Additionnal goals; experiments, necromancy, portability, diversity, …</description>
+    <description lang="fr">Buts additionnels; Expérimentations, nécromancie, portabilitée, diversitée, …</description>
+    <homepage>https://hacktivis.me/git/overlay</homepage>
+    <owner type="person">
+      <email>contact@hacktivis.me</email>
+      <name>Haelwenn (lanodan) Monnier</name>
+    </owner>
+    <!-- https:// certificate not accepted by ca-certificates
+    <source type="git">https://hacktivis.me/git/overlay.git</source> -->
+    <source type="git">git://hacktivis.me/git/overlay.git</source>
+    <source type="git">https://gitlab.com/lanodan/overlay.git</source>
+    <source type="git">git://gitlab.com/lanodan/overlay.git</source>
+    <feed>https://hacktivis.me/git/overlay/atom.xml</feed>
+  </repo>
   <repo quality="experimental" status="official">
     <name>last-hope</name>
     <description>A gentoo portage overlay with a set of too exotic, or unusal ebuilds for the sunrise overlay or the main tree.</description>
@@ -3385,6 +3401,19 @@ FIN
     <source type="git">git+ssh://git@git.gentoo.org/proj/nx.git</source>
     <feed>https://cgit.gentoo.org/proj/nx.git/atom/</feed>
     <!-- <feed>https://cgit.gentoo.org/proj/nx.git/rss/</feed> -->
+  </repo>
+  <repo quality="experimental" status="unofficial">
+    <name>oboeverlay</name>
+    <description lang="en">ChrisOboe's overlay</description>
+    <homepage>https://github.com/ChrisOboe/oboeverlay</homepage>
+    <owner type="person">
+      <email>ChrisOboe@eml.cc</email>
+      <name>Chris Oboe</name>
+    </owner>
+    <source type="git">https://github.com/ChrisOboe/oboeverlay.git</source>
+    <source type="git">git://github.com/ChrisOboe/oboeverlay.git</source>
+    <source type="git">git@github.com:ChrisOboe/oboeverlay.git</source>
+    <feed>https://github.com/ChrisOboe/oboeverlay/commits/master.atom</feed>
   </repo>
   <repo quality="experimental" status="unofficial">
     <name>observer</name>
@@ -4279,6 +4308,19 @@ FIN
     </owner>
     <source type="git">git://github.com/scrill/scrill-overlay.git</source>
     <feed>https://github.com/scrill/scrill-overlay/commits/master.atom</feed>
+  </repo>
+  <repo quality="experimental" status="unofficial">
+    <name>seadep</name>
+    <description lang="en">just a few ebuilds, I couldn't find elsewhere</description>
+    <homepage>https://github.com/Keepco/gentoo-overlay-seadep</homepage>
+    <owner type="person">
+      <email>Rasmus.thomsen@live.de</email>
+      <name>Rasmus Thomsen</name>
+    </owner>
+    <source type="git">https://github.com/Keepco/gentoo-overlay-seadep.git</source>
+    <source type="git">git://github.com/Keepco/gentoo-overlay-seadep.git</source>
+    <source type="git">git@github.com:Keepco/gentoo-overlay-seadep.git</source>
+    <feed>https://github.com/Keepco/gentoo-overlay-seadep/commits/master.atom</feed>
   </repo>
   <repo quality="experimental" status="unofficial">
     <name>seafile</name>

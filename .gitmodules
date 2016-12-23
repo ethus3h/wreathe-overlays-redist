@@ -40,3 +40,6 @@
 [submodule "jscinoz"]
 	path = jscinoz
 	url = git://github.com/jscinoz/jscinoz-overlay.git
+[submodule "dotnet"]
+	path = dotnet
+	url = git://anongit.gentoo.org/proj/dotnet.git
