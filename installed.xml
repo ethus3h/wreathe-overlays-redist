@@ -192,7 +192,7 @@
     <description>Gentoo overlay for audio</description>
     <homepage>https://gitlab.com/proaudio/proaudio</homepage>
     <owner>
-      <email>proaudio-request@lists.tuxfamily.org</email>
+      <email>proaudio@tuxfamily.org</email>
     </owner>
     <source type="git">https://gitlab.com/proaudio/proaudio.git</source>
   </repo>
