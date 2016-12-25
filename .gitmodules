@@ -43,3 +43,6 @@
 [submodule "dotnet"]
 	path = dotnet
 	url = git://anongit.gentoo.org/proj/dotnet.git
+[submodule "netcrave"]
+	path = netcrave
+	url = https://github.com/cloudkitsch/netcrave.git
