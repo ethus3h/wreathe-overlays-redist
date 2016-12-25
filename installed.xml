@@ -187,4 +187,13 @@
     </owner>
     <source type="git">https://github.com/Fat-Zer/trinity.git</source>
   </repo>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>proaudio</name>
+    <description>Gentoo overlay for audio</description>
+    <homepage>https://gitlab.com/proaudio/proaudio</homepage>
+    <owner>
+      <email>proaudio-request@lists.tuxfamily.org</email>
+    </owner>
+    <source type="git">https://gitlab.com/proaudio/proaudio.git</source>
+  </repo>
 </repositories>

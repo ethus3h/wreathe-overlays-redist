@@ -46,3 +46,6 @@
 [submodule "netcrave"]
 	path = netcrave
 	url = https://github.com/cloudkitsch/netcrave.git
+[submodule "proaudio"]
+	path = proaudio
+	url = https://gitlab.com/proaudio/proaudio.git
