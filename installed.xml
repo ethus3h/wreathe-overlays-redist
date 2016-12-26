@@ -43,7 +43,7 @@
     <source type="git">git://github.com/tokiclover/bar-overlay.git</source>
     <feed>https://github.com/tokiclover/bar-overlay/commits/master.atom</feed>
   </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
+  <repo priority="49" quality="experimental" status="unofficial">
     <name>proaudio</name>
     <description>Gentoo overlay for audio</description>
     <homepage>https://gitlab.com/proaudio/proaudio</homepage>
