@@ -33,15 +33,33 @@
     <feed>http://github.com/feeds/laurentb/commits/gentoo-overlay/master</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>netcrave</name>
-    <description>Netcrave Communications Gentoo Overlay</description>
-    <homepage>https://github.com/cloudkitsch/netcrave</homepage>
+    <name>bar</name>
+    <description>Ebuilds that end up in Funtoo ports-2012</description>
+    <homepage>https://github.com/tokiclover/bar-overlay</homepage>
     <owner>
-      <email>paigeadele@gmail.com</email>
-      <name>Paige Thompson</name>
+      <email>tokiclover@gmail.com</email>
+      <name>tokiclover</name>
     </owner>
-    <source type="git">https://github.com/cloudkitsch/netcrave.git</source>
-    <feed>https://github.com/cloudkitsch/netcrave/commits/master.atom</feed>
+    <source type="git">git://github.com/tokiclover/bar-overlay.git</source>
+    <feed>https://github.com/tokiclover/bar-overlay/commits/master.atom</feed>
+  </repo>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>proaudio</name>
+    <description>Gentoo overlay for audio</description>
+    <homepage>https://gitlab.com/proaudio/proaudio</homepage>
+    <owner>
+      <email>proaudio@tuxfamily.org</email>
+    </owner>
+    <source type="git">https://gitlab.com/proaudio/proaudio.git</source>
+  </repo>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>stintel</name>
+    <description>stintel gentoo overlay</description>
+    <homepage>http://www.linux-ipv6.be</homepage>
+    <owner>
+      <email>stijn@linux-ipv6.be</email>
+    </owner>
+    <source type="git">https://github.com/stintel/gentoo-overlay.git</source>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>brother-overlay</name>
@@ -55,22 +73,26 @@
     <feed>http://github.com/stefan-langenmaier/brother-overlay/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>stintel</name>
-    <description>stintel gentoo overlay</description>
-    <homepage>http://www.linux-ipv6.be</homepage>
+    <name>netcrave</name>
+    <description>Netcrave Communications Gentoo Overlay</description>
+    <homepage>https://github.com/cloudkitsch/netcrave</homepage>
     <owner>
-      <email>stijn@linux-ipv6.be</email>
+      <email>paigeadele@gmail.com</email>
+      <name>Paige Thompson</name>
     </owner>
-    <source type="git">https://github.com/stintel/gentoo-overlay.git</source>
+    <source type="git">https://github.com/cloudkitsch/netcrave.git</source>
+    <feed>https://github.com/cloudkitsch/netcrave/commits/master.atom</feed>
   </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>erosa-overlay</name>
-    <description>A personal unofficial Gentoo overlay.</description>
-    <homepage>https://bitbucket.org/erosa/erosa-overlay/wiki/Home</homepage>
+  <repo priority="100" quality="experimental" status="unofficial">
+    <name>wreathe-overlay</name>
+    <description>ebuilds for Wreathe</description>
+    <homepage>https://github.com/ethus3h/wreathe-overlay</homepage>
     <owner>
-      <email>goaway1000@gmail.com</email>
+      <email>info@futuramerlin.com</email>
+      <name>Futuramerlin</name>
     </owner>
-    <source type="mercurial">https://bitbucket.org/erosa/erosa-overlay</source>
+    <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
+    <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>sirjaren</name>
@@ -94,16 +116,14 @@
     <source type="git">git://github.com/msva/mva-overlay</source>
     <feed>https://github.com/msva/mva-overlay/commits/master.atom</feed>
   </repo>
-  <repo priority="100" quality="experimental" status="unofficial">
-    <name>wreathe-overlay</name>
-    <description>ebuilds for Wreathe</description>
-    <homepage>https://github.com/ethus3h/wreathe-overlay</homepage>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>erosa-overlay</name>
+    <description>A personal unofficial Gentoo overlay.</description>
+    <homepage>https://bitbucket.org/erosa/erosa-overlay/wiki/Home</homepage>
     <owner>
-      <email>info@futuramerlin.com</email>
-      <name>Futuramerlin</name>
+      <email>goaway1000@gmail.com</email>
     </owner>
-    <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
-    <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
+    <source type="mercurial">https://bitbucket.org/erosa/erosa-overlay</source>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>andy</name>
@@ -186,14 +206,5 @@
       <email>fatzer2@gmail.com</email>
     </owner>
     <source type="git">https://github.com/Fat-Zer/trinity.git</source>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>proaudio</name>
-    <description>Gentoo overlay for audio</description>
-    <homepage>https://gitlab.com/proaudio/proaudio</homepage>
-    <owner>
-      <email>proaudio@tuxfamily.org</email>
-    </owner>
-    <source type="git">https://gitlab.com/proaudio/proaudio.git</source>
   </repo>
 </repositories>
