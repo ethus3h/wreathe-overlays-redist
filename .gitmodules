@@ -49,3 +49,6 @@
 [submodule "proaudio"]
 	path = proaudio
 	url = https://gitlab.com/proaudio/proaudio.git
+[submodule "bar-overlay"]
+	path = bar-overlay
+	url = git://github.com/tokiclover/bar-overlay.git
