@@ -52,3 +52,6 @@
 [submodule "bar-overlay"]
 	path = bar-overlay
 	url = git://github.com/tokiclover/bar-overlay.git
+[submodule "muscraft"]
+	path = muscraft
+	url = https://github.com/suhr/muscraft.git
