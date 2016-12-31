@@ -227,4 +227,15 @@
     <source type="git">git://anongit.gentoo.org/proj/dotnet.git</source>
     <feed>https://cgit.gentoo.org/proj/dotnet.git/atom/</feed>
   </repo>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>compiz-reloaded</name>
+    <description>Ebuilds for compiz-reloaded support in Gentoo</description>
+    <homepage>https://github.com/kajzersoze/compiz-reloaded-overlay</homepage>
+    <owner>
+      <email>~kajzer@unaffiliated/kajzer30</email>
+      <name>Kajzer Soze</name>
+    </owner>
+    <source type="git">https://github.com/kajzersoze/compiz-reloaded-overlay.git</source>
+    <feed>https://github.com/kajzersoze/compiz-reloaded-overlay/commits/master.atom</feed>
+  </repo>
 </repositories>

@@ -61,3 +61,6 @@
 [submodule "gentoo-kodi-overlay"]
 	path = gentoo-kodi-overlay
 	url = git://github.com/herrnst/gentoo-kodi-overlay.git
+[submodule "compiz-reloaded"]
+	path = compiz-reloaded
+	url = https://github.com/kajzersoze/compiz-reloaded-overlay.git
