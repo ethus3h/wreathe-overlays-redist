@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd erosa-overlay
-hg fetch
 hg pull -u
+hg merge
