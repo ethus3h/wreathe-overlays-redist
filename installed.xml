@@ -232,7 +232,7 @@
     <description>Ebuilds for compiz-reloaded support in Gentoo</description>
     <homepage>https://github.com/kajzersoze/compiz-reloaded-overlay</homepage>
     <owner>
-      <name>Kajzer Soze</name>
+      <name>Kajzer Soze</name>
     </owner>
     <source type="git">https://github.com/kajzersoze/compiz-reloaded-overlay.git</source>
     <feed>https://github.com/kajzersoze/compiz-reloaded-overlay/commits/master.atom</feed>
