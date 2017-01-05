@@ -114,6 +114,16 @@
     <source type="git">git://github.com/jscinoz/jscinoz-overlay.git</source>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
+    <name>compiz-reloaded</name>
+    <description>Ebuilds for compiz-reloaded support in Gentoo</description>
+    <homepage>https://github.com/kajzersoze/compiz-reloaded-overlay</homepage>
+    <owner>
+      <email />
+    </owner>
+    <source type="git">https://github.com/kajzersoze/compiz-reloaded-overlay.git</source>
+    <feed>https://github.com/kajzersoze/compiz-reloaded-overlay/commits/master.atom</feed>
+  </repo>
+  <repo priority="50" quality="experimental" status="unofficial">
     <name>trinity</name>
     <description>Gentoo overlay for Trinity Desktop Environment, a fork of KDE3</description>
     <homepage>http://www.trinitydesktop.org/</homepage>
@@ -205,6 +215,17 @@
     <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
     <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
   </repo>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>mv</name>
+    <description>Ebuilds for packages not in the Gentoo tree (lack of maintainer or too experimental) and live ebuilds or extensions/bugfixes for packages in the tree</description>
+    <homepage>https://cgit.gentoo.org/user/mv.git</homepage>
+    <owner>
+      <email>martin@mvath.de</email>
+      <name>Martin Väth</name>
+    </owner>
+    <source type="git">git://anongit.gentoo.org/user/mv.git</source>
+    <feed>https://cgit.gentoo.org/user/mv.git/atom/</feed>
+  </repo>
   <repo priority="50" quality="experimental" status="official">
     <name>ulm</name>
     <description>Developer overlay</description>
@@ -226,15 +247,5 @@
     </owner>
     <source type="git">git://anongit.gentoo.org/proj/dotnet.git</source>
     <feed>https://cgit.gentoo.org/proj/dotnet.git/atom/</feed>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>compiz-reloaded</name>
-    <description>Ebuilds for compiz-reloaded support in Gentoo</description>
-    <homepage>https://github.com/kajzersoze/compiz-reloaded-overlay</homepage>
-    <owner>
-      <name>Kajzer Soze</name>
-    </owner>
-    <source type="git">https://github.com/kajzersoze/compiz-reloaded-overlay.git</source>
-    <feed>https://github.com/kajzersoze/compiz-reloaded-overlay/commits/master.atom</feed>
   </repo>
 </repositories>
