@@ -2,4 +2,4 @@
 
 cd erosa-overlay
 hg pull -u
-hg merge
+hg merge || echo "(Note: Nothing to merge.)"
