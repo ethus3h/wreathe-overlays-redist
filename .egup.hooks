@@ -2,4 +2,4 @@
 
 cd erosa-overlay
 hg pull -u
-hg merge || echo "(Note: Nothing to merge.)"
+hg merge || echo "(Note: hg merge returned a failing status; this is probably nothing to worry about.)"
