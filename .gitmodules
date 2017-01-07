@@ -64,3 +64,9 @@
 [submodule "compiz-reloaded"]
 	path = compiz-reloaded
 	url = https://github.com/kajzersoze/compiz-reloaded-overlay.git
+[submodule "mv"]
+	path = mv
+	url = git://anongit.gentoo.org/user/mv.git
+[submodule "wreathe-overlay"]
+	path = wreathe-overlay
+	url = https://github.com/ethus3h/wreathe-overlay.git
