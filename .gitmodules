@@ -36,7 +36,7 @@
 	url = git://github.com/Sabayon/for-gentoo.git
 [submodule "trinity"]
 	path = trinity
-	url = https://github.com/Fat-Zer/trinity.git
+	url = https://github.com/sitsang/trinity.git
 [submodule "jscinoz"]
 	path = jscinoz
 	url = git://github.com/jscinoz/jscinoz-overlay.git
