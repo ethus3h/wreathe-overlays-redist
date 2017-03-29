@@ -12,17 +12,6 @@
     <feed>http://github.com/feeds/laurentb/commits/gentoo-overlay/master</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>netcrave</name>
-    <description>Netcrave Communications Gentoo Overlay</description>
-    <homepage>https://github.com/cloudkitsch/netcrave</homepage>
-    <owner>
-      <email>paigeadele@gmail.com</email>
-      <name>Paige Thompson</name>
-    </owner>
-    <source type="git">https://github.com/cloudkitsch/netcrave.git</source>
-    <feed>https://github.com/cloudkitsch/netcrave/commits/master.atom</feed>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
     <name>brother-overlay</name>
     <description>Brother Overlay</description>
     <homepage>http://github.com/stefan-langenmaier/brother-overlay</homepage>
@@ -45,37 +34,6 @@
     <feed>https://github.com/sirjaren/gentoo-overlay/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>elementary</name>
-    <description>The elementary OS experience for Gentoo Linux.</description>
-    <homepage>https://github.com/pimvullers/elementary</homepage>
-    <owner>
-      <email>gentoo.org@vullersmail.nl</email>
-      <name>Pim Vullers</name>
-    </owner>
-    <source type="git">git://github.com/pimvullers/elementary.git</source>
-    <feed>https://github.com/pimvullers/elementary/commits/master.atom</feed>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>gentoo-kodi-overlay</name>
-    <description>Kodi portage overlay with GIT ebuilds for Kodi, the Kodi platform lib and Kodi binary addons</description>
-    <homepage>https://github.com/herrnst/gentoo-kodi-overlay/</homepage>
-    <owner>
-      <email />
-    </owner>
-    <source type="git">git://github.com/herrnst/gentoo-kodi-overlay.git</source>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>jorgicio</name>
-    <description>Gentoo repository made by Jorgicio.</description>
-    <homepage>https://github.com/jorgicio/jorgicio-gentoo</homepage>
-    <owner>
-      <email>jpizarro@inf.utfsm.cl</email>
-      <name>Jorge Pizarro Callejas</name>
-    </owner>
-    <source type="git">https://github.com/jorgicio/jorgicio-gentoo.git</source>
-    <feed>https://github.com/jorgicio/jorgicio-gentoo/commits/master.atom</feed>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
     <name>stintel</name>
     <description>stintel gentoo overlay</description>
     <homepage>http://www.linux-ipv6.be</homepage>
@@ -83,35 +41,6 @@
       <email>stijn@linux-ipv6.be</email>
     </owner>
     <source type="git">https://github.com/stintel/gentoo-overlay.git</source>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>erosa-overlay</name>
-    <description>A personal unofficial Gentoo overlay.</description>
-    <homepage>https://bitbucket.org/erosa/erosa-overlay/wiki/Home</homepage>
-    <owner>
-      <email>goaway1000@gmail.com</email>
-    </owner>
-    <source type="mercurial">https://bitbucket.org/erosa/erosa-overlay</source>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>andy</name>
-    <description>Development tools for embedded systems and misc stuff</description>
-    <homepage>https://cgit.gentoo.org/user/andy.git/</homepage>
-    <owner>
-      <email>andy@ndyk.de</email>
-      <name>Andrew Karpow</name>
-    </owner>
-    <source type="git">git://anongit.gentoo.org/user/andy.git</source>
-    <feed>https://cgit.gentoo.org/user/andy.git/atom/</feed>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>jscinoz</name>
-    <description>Portage overlay for various things not in other overlays</description>
-    <homepage>http://github.com/jscinoz/</homepage>
-    <owner>
-      <email>jscinoz@jscinoz.so</email>
-    </owner>
-    <source type="git">git://github.com/jscinoz/jscinoz-overlay.git</source>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>compiz-reloaded</name>
@@ -142,15 +71,6 @@
     <source type="git">git://github.com/Sabayon/for-gentoo.git</source>
     <feed>https://github.com/feeds/Sabayon/commits/for-gentoo/master</feed>
   </repo>
-  <repo priority="49" quality="experimental" status="unofficial">
-    <name>proaudio</name>
-    <description>Gentoo overlay for audio</description>
-    <homepage>https://gitlab.com/proaudio/proaudio</homepage>
-    <owner>
-      <email>proaudio@tuxfamily.org</email>
-    </owner>
-    <source type="git">https://gitlab.com/proaudio/proaudio.git</source>
-  </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>muscraft</name>
     <description>Overlay with music crafting tools</description>
@@ -170,17 +90,6 @@
       <email>gw.fossdev@gmail.com</email>
     </owner>
     <source type="git">https://github.com/gerddie/gentoo-imaging.git</source>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>booboo</name>
-    <description>L29Ah personal overlay</description>
-    <homepage>https://github.com/l29ah/booboo</homepage>
-    <owner>
-      <email>zl29ah@gmail.com</email>
-      <name>Sergey Alirzaev</name>
-    </owner>
-    <source type="git">https://github.com/l29ah/booboo.git</source>
-    <feed>https://github.com/l29ah/booboo/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>bar</name>
@@ -214,28 +123,6 @@
     </owner>
     <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
     <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>mv</name>
-    <description>Ebuilds for packages not in the Gentoo tree (lack of maintainer or too experimental) and live ebuilds or extensions/bugfixes for packages in the tree</description>
-    <homepage>https://cgit.gentoo.org/user/mv.git</homepage>
-    <owner>
-      <email>martin@mvath.de</email>
-      <name>Martin Väth</name>
-    </owner>
-    <source type="git">git://anongit.gentoo.org/user/mv.git</source>
-    <feed>https://cgit.gentoo.org/user/mv.git/atom/</feed>
-  </repo>
-  <repo priority="50" quality="experimental" status="official">
-    <name>ulm</name>
-    <description>Developer overlay</description>
-    <homepage>https://cgit.gentoo.org/repo/dev/ulm.git/</homepage>
-    <owner>
-      <email>ulm@gentoo.org</email>
-      <name>Ulrich Müller</name>
-    </owner>
-    <source type="git">git://anongit.gentoo.org/repo/dev/ulm.git</source>
-    <feed>https://cgit.gentoo.org/repo/dev/ulm.git/atom/</feed>
   </repo>
   <repo priority="50" quality="experimental" status="official">
     <name>dotnet</name>
