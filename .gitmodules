@@ -1,39 +1,21 @@
-[submodule "laurentb"]
-	path = laurentb
-	url = git://github.com/laurentb/gentoo-overlay.git
 [submodule "brother-overlay"]
 	path = brother-overlay
 	url = git://github.com/stefan-langenmaier/brother-overlay.git
-[submodule "stintel"]
-	path = stintel
-	url = https://github.com/stintel/gentoo-overlay.git
-[submodule "sirjaren"]
-	path = sirjaren
-	url = git://github.com/sirjaren/gentoo-overlay.git
-[submodule "mva"]
-	path = mva
-	url = git://github.com/msva/mva-overlay
-[submodule "imaging"]
-	path = imaging
-	url = https://github.com/gerddie/gentoo-imaging.git
-[submodule "sabayon"]
-	path = sabayon
-	url = git://github.com/Sabayon/for-gentoo.git
-[submodule "trinity"]
-	path = trinity
-	url = https://github.com/Fat-Zer/trinity.git
-[submodule "dotnet"]
-	path = dotnet
-	url = git://anongit.gentoo.org/proj/dotnet.git
-[submodule "muscraft"]
-	path = muscraft
-	url = https://github.com/suhr/muscraft.git
-[submodule "bar"]
-	path = bar
-	url = https://github.com/tokiclover/bar-overlay
 [submodule "compiz-reloaded"]
 	path = compiz-reloaded
 	url = https://github.com/kajzersoze/compiz-reloaded-overlay.git
+[submodule "dotnet"]
+	path = dotnet
+	url = git://anongit.gentoo.org/proj/dotnet.git
+[submodule "imaging"]
+	path = imaging
+	url = https://github.com/gerddie/gentoo-imaging.git
+[submodule "stintel"]
+	path = stintel
+	url = https://github.com/stintel/gentoo-overlay.git
+[submodule "trinity"]
+	path = trinity
+	url = https://github.com/Fat-Zer/trinity.git
 [submodule "wreathe-overlay"]
 	path = wreathe-overlay
 	url = https://github.com/ethus3h/wreathe-overlay.git
