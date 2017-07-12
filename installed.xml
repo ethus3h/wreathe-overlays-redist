@@ -12,14 +12,33 @@
     <feed>http://github.com/stefan-langenmaier/brother-overlay/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>compiz-reloaded</name>
-    <description>Ebuilds for compiz-reloaded support in Gentoo</description>
-    <homepage>https://github.com/kajzersoze/compiz-reloaded-overlay</homepage>
+    <name>stintel</name>
+    <description>stintel gentoo overlay</description>
+    <homepage>http://www.linux-ipv6.be</homepage>
     <owner>
-      <email />
+      <email>stijn@linux-ipv6.be</email>
     </owner>
-    <source type="git">https://github.com/kajzersoze/compiz-reloaded-overlay.git</source>
-    <feed>https://github.com/kajzersoze/compiz-reloaded-overlay/commits/master.atom</feed>
+    <source type="git">https://github.com/stintel/gentoo-overlay.git</source>
+  </repo>
+  <repo priority="100" quality="experimental" status="unofficial">
+    <name>wreathe-overlay</name>
+    <description>ebuilds for Wreathe</description>
+    <homepage>https://github.com/ethus3h/wreathe-overlay</homepage>
+    <owner>
+      <email>info@futuramerlin.com</email>
+      <name>Futuramerlin</name>
+    </owner>
+    <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
+    <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
+  </repo>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>imaging</name>
+    <description>Gentoo overlay for image processing and visualization</description>
+    <homepage>https://github.com/gerddie/gentoo-imaging</homepage>
+    <owner>
+      <email>gw.fossdev@gmail.com</email>
+    </owner>
+    <source type="git">https://github.com/gerddie/gentoo-imaging.git</source>
   </repo>
   <repo priority="50" quality="experimental" status="official">
     <name>dotnet</name>
@@ -32,23 +51,25 @@
     <source type="git">git://anongit.gentoo.org/proj/dotnet.git</source>
     <feed>https://cgit.gentoo.org/proj/dotnet.git/atom/</feed>
   </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>imaging</name>
-    <description>Gentoo overlay for image processing and visualization</description>
-    <homepage>https://github.com/gerddie/gentoo-imaging</homepage>
+  <repo priority="50" quality="experimental" status="official">
+    <name>R_Overlay</name>
+    <description>Gentoo overlay of R packages</description>
+    <homepage>https://cgit.gentoo.org/proj/R_overlay.git/</homepage>
     <owner>
-      <email>gw.fossdev@gmail.com</email>
+      <email>heroxbd@gentoo.org</email>
+      <name>Benda Xu</name>
     </owner>
-    <source type="git">https://github.com/gerddie/gentoo-imaging.git</source>
+    <source type="rsync">rsync://roverlay.dev.gentoo.org/roverlay</source>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>stintel</name>
-    <description>stintel gentoo overlay</description>
-    <homepage>http://www.linux-ipv6.be</homepage>
+    <name>compiz-reloaded</name>
+    <description>Ebuilds for compiz-reloaded support in Gentoo</description>
+    <homepage>https://github.com/kajzersoze/compiz-reloaded-overlay</homepage>
     <owner>
-      <email>stijn@linux-ipv6.be</email>
+      <email />
     </owner>
-    <source type="git">https://github.com/stintel/gentoo-overlay.git</source>
+    <source type="git">https://github.com/kajzersoze/compiz-reloaded-overlay.git</source>
+    <feed>https://github.com/kajzersoze/compiz-reloaded-overlay/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>trinity</name>
@@ -58,16 +79,5 @@
       <email>fatzer2@gmail.com</email>
     </owner>
     <source type="git">https://github.com/Fat-Zer/trinity.git</source>
-  </repo>
-  <repo priority="100" quality="experimental" status="unofficial">
-    <name>wreathe-overlay</name>
-    <description>ebuilds for Wreathe</description>
-    <homepage>https://github.com/ethus3h/wreathe-overlay</homepage>
-    <owner>
-      <email>info@futuramerlin.com</email>
-      <name>Futuramerlin</name>
-    </owner>
-    <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
-    <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
   </repo>
 </repositories>
