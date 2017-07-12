@@ -59,7 +59,9 @@
       <email>heroxbd@gentoo.org</email>
       <name>Benda Xu</name>
     </owner>
-    <source type="rsync">rsync://roverlay.dev.gentoo.org/roverlay</source>
+    <source type="git">git://github.com/gentoo-mirror/R_Overlay.git</source>
+    <source type="git">https://github.com/gentoo-mirror/R_Overlay.git</source>
+    <feed>https://github.com/gentoo-mirror/R_Overlay/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
     <name>compiz-reloaded</name>
