@@ -19,3 +19,6 @@
 [submodule "wreathe-overlay"]
 	path = wreathe-overlay
 	url = https://github.com/ethus3h/wreathe-overlay.git
+[submodule "R_Overlay"]
+	path = R_Overlay
+	url = https://github.com/gentoo-mirror/R_Overlay.git
