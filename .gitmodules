@@ -22,6 +22,6 @@
 [submodule "R_Overlay"]
 	path = R_Overlay
 	url = https://github.com/gentoo-mirror/R_Overlay.git
-[submodule "gentoo-haskell"]
-	path = gentoo-haskell
+[submodule "haskell"]
+	path = haskell
 	url = https://github.com/gentoo-haskell/gentoo-haskell.git
