@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repositories version="1.0">
-  <repo priority="50" quality="experimental" status="unofficial">
+  <repo priority="25" quality="experimental" status="unofficial">
     <name>brother-overlay</name>
     <description>Brother Overlay</description>
     <homepage>http://github.com/stefan-langenmaier/brother-overlay</homepage>
@@ -11,7 +11,7 @@
     <source type="git">git://github.com/stefan-langenmaier/brother-overlay.git</source>
     <feed>http://github.com/stefan-langenmaier/brother-overlay/commits/master.atom</feed>
   </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
+  <repo priority="25" quality="experimental" status="unofficial">
     <name>stintel</name>
     <description>stintel gentoo overlay</description>
     <homepage>http://www.linux-ipv6.be</homepage>
@@ -20,7 +20,7 @@
     </owner>
     <source type="git">https://github.com/stintel/gentoo-overlay.git</source>
   </repo>
-  <repo priority="100" quality="experimental" status="unofficial">
+  <repo priority="75" quality="experimental" status="unofficial">
     <name>wreathe-overlay</name>
     <description>ebuilds for Wreathe</description>
     <homepage>https://github.com/ethus3h/wreathe-overlay</homepage>
@@ -31,7 +31,7 @@
     <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
     <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
   </repo>
-  <repo priority="50" quality="experimental" status="official">
+  <repo priority="25" quality="experimental" status="official">
     <name>haskell</name>
     <description>The Official Gentoo Haskell overlay.</description>
     <homepage>https://github.com/gentoo-haskell</homepage>
@@ -41,7 +41,7 @@
     <source type="git">https://github.com/gentoo-haskell/gentoo-haskell.git</source>
     <feed>http://github.com/gentoo-haskell/gentoo-haskell/commits/master.atom</feed>
   </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
+  <repo priority="25" quality="experimental" status="unofficial">
     <name>imaging</name>
     <description>Gentoo overlay for image processing and visualization</description>
     <homepage>https://github.com/gerddie/gentoo-imaging</homepage>
@@ -50,7 +50,7 @@
     </owner>
     <source type="git">https://github.com/gerddie/gentoo-imaging.git</source>
   </repo>
-  <repo priority="50" quality="experimental" status="official">
+  <repo priority="25" quality="experimental" status="official">
     <name>dotnet</name>
     <description>Experimental overlay for .NET packages.</description>
     <homepage>http://github.com/gentoo/dotnet</homepage>
@@ -61,7 +61,7 @@
     <source type="git">git://anongit.gentoo.org/proj/dotnet.git</source>
     <feed>https://cgit.gentoo.org/proj/dotnet.git/atom/</feed>
   </repo>
-  <repo priority="50" quality="experimental" status="official">
+  <repo priority="25" quality="experimental" status="official">
     <name>R_Overlay</name>
     <description>Gentoo overlay of R packages</description>
     <homepage>https://cgit.gentoo.org/proj/R_overlay.git/</homepage>
@@ -82,14 +82,5 @@
     </owner>
     <source type="git">https://github.com/kajzersoze/compiz-reloaded-overlay.git</source>
     <feed>https://github.com/kajzersoze/compiz-reloaded-overlay/commits/master.atom</feed>
-  </repo>
-  <repo priority="50" quality="experimental" status="unofficial">
-    <name>trinity</name>
-    <description>Gentoo overlay for Trinity Desktop Environment, a fork of KDE3</description>
-    <homepage>http://www.trinitydesktop.org/</homepage>
-    <owner>
-      <email>fatzer2@gmail.com</email>
-    </owner>
-    <source type="git">https://github.com/Fat-Zer/trinity.git</source>
   </repo>
 </repositories>
