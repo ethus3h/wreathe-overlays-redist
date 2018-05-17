@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av --delete --checksum --progress --no-i-r -f"- */" -f"+ *" /var/lib/layman/ /Ember\ Library/Ember\ satellite\ projects/wreathe-overlays-redist/ || exit 1
+rsync -lptgoDv --delete --checksum --progress --no-i-r /var/lib/layman/ /Ember\ Library/Ember\ satellite\ projects/wreathe-overlays-redist/ || exit 1
