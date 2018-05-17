@@ -1,4 +1,4 @@
 #!/bin/bash
 set -x
-find /Ember\ Library/Ember\ satellite\ projects/wreathe-overlays-redist/ -maxdepth 1 -type f -not -name 'CONTRIBUTING.md' -not -name 'LICENSE.md' -not -name 'README.md' -not -name 'CODE_OF_CONDUCT.md' -not -name '.egup.*' -not -name '.git' -exec rm {} \;
+find /Ember\ Library/Ember\ satellite\ projects/wreathe-overlays-redist/ -maxdepth 1 -type f -not -name 'CONTRIBUTING.md' -not -name 'LICENSE.md' -not -name 'README.md' -not -name 'CODE_OF_CONDUCT.md' -not -name '.egup.*' -not -name '.git' -not -name '.gitmodules' -exec rm {} \;
 find /var/lib/layman -maxdepth 1 -type f -exec rsync -lptgoDv --checksum --progress --no-i-r {} /Ember\ Library/Ember\ satellite\ projects/wreathe-overlays-redist/ \; || exit 1
