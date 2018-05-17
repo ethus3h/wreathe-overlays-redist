@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[kist-overlay]]></name>
+    <description><![CDATA[Some ebuilds that are not included in any of the overlays.]]></description>
+    <homepage>http://code.google.com/p/kist/</homepage>
+    <owner>
+      <email>garrappachc@gmail.com</email>
+    </owner>
+    <source type="svn">http://kist.googlecode.com/svn/trunk/</source>
+  </repo>
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[bgo-overlay]]></name>
+    <description><![CDATA[This overlay is generated from bugs.gentoo.org.]]></description>
+    <homepage>http://bgo.zugaina.org/</homepage>
+    <owner>
+      <email>ycarus@zugaina.org</email>
+    </owner>
+    <source type="rsync">rsync://gentoo.zugaina.org/bgo-overlay</source>
+  </repo>
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[unknown-horizons]]></name>
+    <description><![CDATA[Ebuilds for snapshots and releases of Unknown Horizons as well as the FIFE Engine]]></description>
+    <homepage>http://unknown-horizons.org/</homepage>
+    <owner>
+      <email>totycro@unknown-horizons.org</email>
+    </owner>
+    <source type="svn">svn://svn.unknown-horizons.org/uh-overlay</source>
+  </repo>
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[sectools]]></name>
+    <description><![CDATA[Gentoo security tools overlay]]></description>
+    <homepage>http://gentoo.o0o.nu/portage/</homepage>
+    <owner>
+      <email>anton.bugs@gmail.com</email>
+    </owner>
+    <source type="rsync">rsync://gentoo.o0o.nu/sectools</source>
+  </repo>
+  <repo quality="experimental" status="unofficial">
+    <name>openstreetmap</name>
+    <description>OpenStreetMap related software.</description>
+    <homepage>http://wiki.openstreetmap.org/wiki/Gentoo</homepage>
+    <owner type="project">
+	<email>openstreetmap-ascii64-lorenz.kiefner.de</email>
+        <name>Lorenz</name>
+    </owner>
+    <source type="svn">http://svn.openstreetmap.org/applications/utils/gentoo</source>
+   </repo>
+   <repo quality="experimental" status="unofficial">
+	<name>dabler</name>
+	<description>DaBler's ebuilds</description>
+	<homepage>http://code.google.com/p/dabler/</homepage>
+	<owner type="person">
+	    <email>dabler+gentoo@gmail.com</email>
+	    <name>David Barina</name>
+	</owner>
+	<source type="svn">http://dabler.googlecode.com/svn/trunk/</source>
+    </repo>
+    <repo quality="experimental" status="unofficial">
+        <name>openstack</name>
+        <description>Openstack Nova ebuilds and dependencies</description>
+        <homepage>https://github.com/hyves-org/openstack-overlay</homepage>
+        <owner type="project">
+    	    <email>cor@hyves.nl</email>
+            <name>Cor Cornelisse</name>
+        </owner>
+        <source type="git">https://github.com/hyves-org/openstack-overlay.git</source>
+        <feed>https://github.com/hyves-org/openstack-overlay/commits/master.atom</feed>
+    </repo>
+    <repo quality="experimental" status="unofficial">
+	<name>Spring</name>
+	<description>Everything related to the spring real-time strategy game.</description>
+	<homepage>http://springlobby.info</homepage>
+	<owner type="person">
+	    <email>karl-robert.ernst@uni-jena.de</email>
+	</owner>
+	<source type="git">git://github.com/springlobby/overlay.git</source>
+    </repo>
+    <repo quality="experimental" status="unofficial">
+	<name><![CDATA[spectrum2]]></name>
+	<description><![CDATA[Spectrum 2 and others]]></description>
+	<homepage>http://pubgit.rpgfiction.net/?p=portage-overlay.git;a=summary</homepage>
+	<owner>
+	    <email>chain@rpgfiction.net</email>
+	    <name><![CDATA[chain (Richard H.)]]></name>
+	</owner>
+	<source type="git">git://pubgit.rpgfiction.net/portage-overlay.git</source>
+    </repo>
+</repositories>
