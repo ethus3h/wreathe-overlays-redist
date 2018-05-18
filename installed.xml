@@ -8,7 +8,7 @@
       <email>stefan.langenmaier@gmail.com</email>
       <name>Stefan Langenmaier</name>
     </owner>
-    <source type="git">git://github.com/stefan-langenmaier/brother-overlay.git</source>
+    <source type="git">https://github.com/stefan-langenmaier/brother-overlay.git</source>
     <feed>http://github.com/stefan-langenmaier/brother-overlay/commits/master.atom</feed>
   </repo>
   <repo priority="25" quality="experimental" status="unofficial">
@@ -28,7 +28,7 @@
       <email>info@futuramerlin.com</email>
       <name>Futuramerlin</name>
     </owner>
-    <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
+    <source type="git">https://github.com/ethus3h/wreathe-overlay.git</source>
     <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
   </repo>
   <repo priority="25" quality="experimental" status="official">
@@ -58,7 +58,7 @@
       <email>cynede@gentoo.org</email>
       <name>Mikhail Pukhlikov</name>
     </owner>
-    <source type="git">git://anongit.gentoo.org/proj/dotnet.git</source>
+    <source type="git">https://anongit.gentoo.org/git/proj/dotnet.git</source>
     <feed>https://cgit.gentoo.org/proj/dotnet.git/atom/</feed>
   </repo>
   <repo priority="25" quality="experimental" status="official">
@@ -69,7 +69,6 @@
       <email>heroxbd@gentoo.org</email>
       <name>Benda Xu</name>
     </owner>
-    <source type="git">git://github.com/gentoo-mirror/R_Overlay.git</source>
     <source type="git">https://github.com/gentoo-mirror/R_Overlay.git</source>
     <feed>https://github.com/gentoo-mirror/R_Overlay/commits/master.atom</feed>
   </repo>
