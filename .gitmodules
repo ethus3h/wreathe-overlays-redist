@@ -7,9 +7,6 @@
 [submodule "dotnet"]
 	path = dotnet
 	url = https://anongit.gentoo.org/git/proj/dotnet.git
-[submodule "haskell"]
-	path = haskell
-	url = https://github.com/gentoo-haskell/gentoo-haskell.git
 [submodule "imaging"]
 	path = imaging
 	url = https://github.com/gerddie/gentoo-imaging.git
