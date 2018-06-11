@@ -19,3 +19,69 @@
 [submodule "wreathe-overlay"]
 	path = wreathe-overlay
 	url = https://github.com/ethus3h/wreathe-overlay.git
+[submodule "extra-modules/waebbl-gentoo"]
+	path = extra-modules/waebbl-gentoo
+	url = https://github.com/waebbl/waebbl-gentoo.git
+[submodule "extra-modules/jorgicio-gentoo"]
+	path = extra-modules/jorgicio-gentoo
+	url = https://github.com/jorgicio/jorgicio-gentoo.git
+[submodule "extra-modules/laurentb"]
+	path = extra-modules/laurentb
+	url = https://github.com/laurentb/gentoo-overlay.git
+[submodule "extra-modules/sirjaren"]
+	path = extra-modules/sirjaren
+	url = https://github.com/sirjaren/gentoo-overlay.git
+[submodule "extra-modules/mva-overlay"]
+	path = extra-modules/mva-overlay
+	url = https://github.com/msva/mva-overlay.git
+[submodule "extra-modules/andy"]
+	path = extra-modules/andy
+	url = https://anongit.gentoo.org/git/user/andy.git
+[submodule "extra-modules/booboo"]
+	path = extra-modules/booboo
+	url = https://github.com/l29ah/booboo.git
+[submodule "extra-modules/ulm"]
+	path = extra-modules/ulm
+	url = https://anongit.gentoo.org/git/dev/ulm.git
+[submodule "extra-modules/elementary"]
+	path = extra-modules/elementary
+	url = https://github.com/pimvullers/elementary.git
+[submodule "extra-modules/jscinoz-overlay"]
+	path = extra-modules/jscinoz-overlay
+	url = https://github.com/jscinoz/jscinoz-overlay.git
+[submodule "extra-modules/trinity"]
+	path = extra-modules/trinity
+	url = https://github.com/Fat-Zer/trinity.git
+[submodule "extra-modules/for-gentoo"]
+	path = extra-modules/for-gentoo
+	url = https://github.com/Sabayon/for-gentoo.git
+[submodule "extra-modules/netcrave-overlay"]
+	path = extra-modules/netcrave-overlay
+	url = https://github.com/solaris-ventus/netcrave-overlay.git
+[submodule "extra-modules/netcrave"]
+	path = extra-modules/netcrave
+	url = https://github.com/jokleinn/netcrave.git
+[submodule "extra-modules/proaudio"]
+	path = extra-modules/proaudio
+	url = https://gitlab.com/proaudio/proaudio.git
+[submodule "extra-modules/bar-overlay"]
+	path = extra-modules/bar-overlay
+	url = https://github.com/tokiclover/bar-overlay.git
+[submodule "extra-modules/muscraft"]
+	path = extra-modules/muscraft
+	url = https://github.com/suhr/muscraft.git
+[submodule "extra-modules/gentoo-kodi-overlay"]
+	path = extra-modules/gentoo-kodi-overlay
+	url = https://github.com/herrnst/gentoo-kodi-overlay.git
+[submodule "extra-modules/compiz-reloaded-overlay"]
+	path = extra-modules/compiz-reloaded-overlay
+	url = https://github.com/kajzersoze/compiz-reloaded-overlay.git
+[submodule "extra-modules/mv"]
+	path = extra-modules/mv
+	url = https://anongit.gentoo.org/git/user/mv.git
+[submodule "extra-modules/sitsang-trinity"]
+	path = extra-modules/sitsang-trinity
+	url = https://github.com/sitsang/trinity.git
+[submodule "extra-modules/gentoo-haskell"]
+	path = extra-modules/gentoo-haskell
+	url = https://github.com/gentoo-haskell/gentoo-haskell.git
