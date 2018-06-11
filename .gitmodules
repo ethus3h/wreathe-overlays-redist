@@ -25,9 +25,6 @@
 [submodule "extra-modules/jorgicio-gentoo"]
 	path = extra-modules/jorgicio-gentoo
 	url = https://github.com/jorgicio/jorgicio-gentoo.git
-[submodule "extra-modules/laurentb"]
-	path = extra-modules/laurentb
-	url = https://github.com/laurentb/gentoo-overlay.git
 [submodule "extra-modules/sirjaren"]
 	path = extra-modules/sirjaren
 	url = https://github.com/sirjaren/gentoo-overlay.git
