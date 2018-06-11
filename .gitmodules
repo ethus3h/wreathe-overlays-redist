@@ -82,3 +82,6 @@
 [submodule "extra-modules/gentoo-haskell"]
 	path = extra-modules/gentoo-haskell
 	url = https://github.com/gentoo-haskell/gentoo-haskell.git
+[submodule "extra-modules/laurentb"]
+	path = extra-modules/laurentb
+	url = https://github.com/laurentb/gentoo-overlay.git
