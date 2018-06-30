@@ -85,3 +85,6 @@
 [submodule "extra-modules/laurentb"]
 	path = extra-modules/laurentb
 	url = https://github.com/laurentb/gentoo-overlay.git
+[submodule "extra-modules/freundlich-gentoo"]
+	path = extra-modules/freundlich-gentoo
+	url = https://github.com/freundlich/freundlich-gentoo.git
