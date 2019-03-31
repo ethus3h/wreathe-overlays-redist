@@ -88,3 +88,6 @@
 [submodule "extra-modules/freundlich-gentoo"]
 	path = extra-modules/freundlich-gentoo
 	url = https://github.com/freundlich/freundlich-gentoo.git
+[submodule "matrix-overlay"]
+	path = matrix-overlay
+	url = https://gitlab.com/PureTryOut/matrix-overlay.git
